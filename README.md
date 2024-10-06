@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Digital Time Capsule
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Digital Time Capsule is a React-based web application that allows users to create virtual time capsules. Users can upload files, set a future date and time for unlocking, and view the contents when the specified time arrives. This project serves as a fun and interactive way to preserve memories or set future goals.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Create time capsules with custom titles
+- Upload files to your time capsules
+- Set specific date and time for unlocking each capsule
+- Automatic unlocking based on the current time
+- View images and text files directly in the browser
+- Download other file types when unlocked
+- Responsive design for various screen sizes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To set up the Digital Time Capsule project locally, follow these steps:
 
-### `npm test`
+1. Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/digital-time-capsule.git
+   cd digital-time-capsule
+   ```
 
-### `npm run build`
+3. Install the necessary dependencies:
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+   ```
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. **Creating a Time Capsule**
+   - Fill in the capsule title
+   - Upload a file using the file input
+   - Set the unlock date and time
+   - Click "Create Capsule"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Viewing Time Capsules**
+   - All created capsules are displayed in a grid layout
+   - Each capsule shows its title, unlock date/time, and file name
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Unlocking a Time Capsule**
+   - When the unlock time arrives, the "Locked" button becomes active
+   - Click the button to unlock and view the contents
+   - Images and text files open in a new window
+   - Other file types initiate a download
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Lucide React (for icons)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
